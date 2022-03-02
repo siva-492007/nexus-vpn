@@ -1,0 +1,97 @@
+.container hr {
+    width: 80%;
+    border-width: thin;
+}
+
+.current {
+    float: left;
+    width: 50%;
+}
+
+.create {
+    float: right;
+    width: 50%;
+}
+
+.create p{
+    float: left;
+}
+
+.user_input {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.user_input input{
+    float: right;
+    width: 70%;
+    padding: 8px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-size: medium;
+}
+
+.user_input b{
+    float: left;
+    padding: 10px;
+}
+
+.interior{
+    padding: 15px;
+    margin: 10px;
+}
+
+.tbl table{
+    margin: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.tbl td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tbl tr:nth-child(even){background-color: #f2f2f2;}
+
+.tbl tr:hover {background-color: #ddd;}
+
+.tbl th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+.vl {
+    border-left: 3px solid #04AA6D;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    z-index: -1;
+}
+
+
+
+.create_btn{
+    background-color: #04AA6D;
+    border-radius: 0.25em;
+    border: none;
+    color: white;
+    padding: 8px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.create_btn:hover{
+    background: green;
+}
